@@ -103,6 +103,9 @@ a {
 .form #get-start:hover {
   background-color: orange;
 }
+.form #get-start {
+  cursor: pointer;
+}
 
 .container {
   max-width: 1000px;
@@ -202,6 +205,7 @@ a {
   padding: 5px 0;
 }
 .ticket-btn {
+  cursor: pointer;
   padding: 0 20px;
   height: 40px;
   border: 0;
@@ -209,6 +213,9 @@ a {
   background-color: #f1c40f;
   font-size: 1em;
   font-weight: 400;
+}
+.ticket-btn:hover {
+  opacity: 0.7;
 }
 
 .footer {
